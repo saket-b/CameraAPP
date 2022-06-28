@@ -112,6 +112,7 @@ function downloadListener(e) {
 
     }
   }
+  
 
   if (type == "img") {
     let imageDBTransacrtion = db.transaction("image", "readonly");
